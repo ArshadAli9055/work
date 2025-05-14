@@ -1,0 +1,7 @@
+setuptools==80.1.0
+networkx==3.4.2
+numpy==2.2.5
+matplotlib==3.10.1
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.2

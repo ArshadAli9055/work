@@ -1,0 +1,102 @@
+Python Implementation Routes
+======================
+
+TRUCK #1:
+Capacity: 2625.1666642302953
+Total Load: 1386.6680685858728
+Total Distance: 40.61 units
+Estimated Fuel Consumption: 4.06 liters
+
+Route Sequence:
+Depot -> Bin 1 (Fill: 0.0%) -> Bin 4 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #3:
+Capacity: 2159.3304674369847
+Total Load: 1237.9682534314913
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 2 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #1:
+Capacity: 2625.1666642302953
+Total Load: 1386.6680685858728
+Total Distance: 34.07 units
+Estimated Fuel Consumption: 3.41 liters
+
+Route Sequence:
+Depot -> Bin 3 (Fill: 0.0%) -> Bin 5 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #3:
+Capacity: 2159.3304674369847
+Total Load: 1237.9682534314913
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 6 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #1:
+Capacity: 2625.1666642302953
+Total Load: 1386.6680685858728
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 7 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #3:
+Capacity: 2159.3304674369847
+Total Load: 1237.9682534314913
+Total Distance: 112.26 units
+Estimated Fuel Consumption: 11.23 liters
+
+Route Sequence:
+Depot -> Bin 8 (Fill: 0.0%) -> Bin 14 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #3:
+Capacity: 2159.3304674369847
+Total Load: 1237.9682534314913
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 9 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #2:
+Capacity: 1365.896290891303
+Total Load: 291.3174581846905
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 11 (Fill: 0.0%) -> Depot
+
+------------------------------------
+
+TRUCK #1:
+Capacity: 2625.1666642302953
+Total Load: 1386.6680685858728
+Total Distance: 0.00 units
+Estimated Fuel Consumption: 0.00 liters
+
+Route Sequence:
+Depot -> Bin 13 (Fill: 0.0%) -> Depot
+
+------------------------------------
+

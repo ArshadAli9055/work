@@ -1,0 +1,24 @@
+=== SMART TRASH TRUCK ROUTING RESULTS ===
+
+TRUCK #1:
+Capacity: 2669.3181385566604
+Total Load: 2627.5500900330585
+Total Distance: 545.67 units
+Estimated Fuel Consumption: 54.57 liters
+
+Route Sequence:
+Depot -> Bin 15 (Fill: 43.4%) -> Bin 4 (Fill: 76.8%) -> Bin 16 (Fill: 53.0%) -> Bin 7 (Fill: 22.9%) -> Bin 12 (Fill: 56.2%) -> Bin 3 (Fill: 75.4%) -> Bin 14 (Fill: 44.6%) -> Bin 19 (Fill: 3.6%) -> Bin 5 (Fill: 78.4%) -> Bin 11 (Fill: 65.7%) -> Bin 17 (Fill: 34.4%) -> Bin 18 (Fill: 19.1%) -> Bin 1 (Fill: 82.0%) -> Bin 9 (Fill: 36.1%) -> Bin 8 (Fill: 1.1%) -> Bin 2 (Fill: 88.7%) -> Bin 6 (Fill: 14.7%) -> Bin 10 (Fill: 35.2%) -> Bin 13 (Fill: 29.5%) -> Depot
+
+------------------------------------
+
+TRUCK #2:
+Capacity: 2523.760093987714
+Total Load: 42.67801631704114
+Total Distance: 171.50 units
+Estimated Fuel Consumption: 17.15 liters
+
+Route Sequence:
+Depot -> Bin 20 (Fill: 35.4%) -> Depot
+
+------------------------------------
+
