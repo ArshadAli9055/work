@@ -1,0 +1,67 @@
+
+.table-header {
+    background-color: #e22525;
+    color: white;
+    text-align: left;
+    border: 1px solid #dd1010;
+    padding: 10px;
+  }
+  
+  
+  .button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background-color: #337ab7;
+    color: white;
+  }
+  
+  .button-danger {
+    background-color: #dd1010;
+    color: white;
+  }
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  
+  .container {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  
+  .add-product-button {
+    background-color: #29f017;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #337ab7;
+  }
+  
+  .delete-button {
+    background-color: #dd1010;
+  }
+  
+  .button-text {
+    color: white;
+  }
+  

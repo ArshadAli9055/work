@@ -1,0 +1,280 @@
+
+
+.admin-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header {
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.admin-title {
+  color: #343a40;
+  font-weight: 600;
+}
+
+.admin-tabs .nav-link {
+  color: #495057;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 10px 15px;
+}
+
+.admin-tabs .nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.admin-content {
+  padding: 20px 0;
+  min-height: 300px;
+}
+
+.admin-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.admin-loading:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.admin-error {
+  color: #dc3545;
+  text-align: center;
+  padding: 20px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.user-item:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.user-email {
+  font-weight: 500;
+}
+
+.user-role {
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.user-role.admin {
+  background-color: #e9f5ff;
+  color: #007bff;
+}
+
+.user-role.user {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.orders-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+.status-select {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-admin-logout {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-admin-logout:hover {
+  background-color: #c82333;
+}
+
+.settings-panel {
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.settings-heading {
+  color: #343a40;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.settings-section {
+  margin-bottom: 25px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.users-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn-delete-users {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-delete-users:hover {
+  background-color: #c82333;
+}
+
+.btn-delete-users:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+  border: 1px solid #ced4da;
+}
+
+.admin-profile-form {
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn-update-profile {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.btn-update-profile:hover {
+  background-color: #218838;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .orders-table, 
+  .users-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .user-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
